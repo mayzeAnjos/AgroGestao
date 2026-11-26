@@ -18,7 +18,7 @@ export default function NovaPropriedade() {
   const [area, setArea] = useState("");
   const [erro, setErro] = useState("");
 
-  async function salvar(e: React.FormEvent) {
+  async function salvar(e: React.SubmitEvent) {
     e.preventDefault();
     setErro("");
 

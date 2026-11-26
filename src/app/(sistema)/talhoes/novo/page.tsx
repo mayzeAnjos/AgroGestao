@@ -37,7 +37,7 @@ export default function NovoTalhao() {
     .reduce((soma, t) => soma + t.area_hectares, 0);
   const disponivel = propriedade ? propriedade.total_area_hectares - ocupada : 0;
 
-  async function salvar(e: React.FormEvent) {
+  async function salvar(e: React.SubmitEvent) {
     e.preventDefault();
     setErro("");
 
