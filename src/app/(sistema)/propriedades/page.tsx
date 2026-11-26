@@ -24,12 +24,22 @@ export default function Propriedades() {
     <div>
       <div className="mb-6 flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
         <h1 className="text-2xl font-bold text-primary">Propriedades e Talhões</h1>
-        <Link
-          href="/propriedades/nova"
-          className="rounded-xl bg-primary px-4 py-3 text-center text-white transition hover:bg-darker-primary"
-        >
-          + Nova Propriedade
-        </Link>
+
+        {/* Os dois botões, lado a lado no computador */}
+        <div className="flex flex-col gap-2 md:flex-row">
+          <Link
+            href="/talhoes"
+            className="rounded-xl border border-primary px-4 py-3 text-center text-primary transition hover:bg-green-50"
+          >
+            Ver talhões
+          </Link>
+          <Link
+            href="/propriedades/nova"
+            className="rounded-xl bg-primary px-4 py-3 text-center text-white transition hover:bg-darker-primary"
+          >
+            + Nova Propriedade
+          </Link>
+        </div>
       </div>
 
       {carregando && <p className="text-neutral-500">Carregando...</p>}
