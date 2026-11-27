@@ -1,4 +1,4 @@
-// Mostra quanta area ainda esta disponivel na fazenda escolhida
+// Mostra quanta área ainda está disponível na fazenda escolhida
 
 "use client";
 

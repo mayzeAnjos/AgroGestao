@@ -1,4 +1,4 @@
-// Barra inferior do celular
+// Barra de menu inferior do celular
 
 "use client";
 

@@ -22,7 +22,7 @@ export default function NovaPropriedade() {
     e.preventDefault();
     setErro("");
 
-    const areaNumero = Number(area.replace(",", ".")); // aceita "450,5"
+    const areaNumero = Number(area.replace(",", ".")); // aceita "450,5" por exemplo
     if (!nome.trim() || !localizacao.trim()) {
       setErro("Preencha todos os campos obrigatórios.");
       return;

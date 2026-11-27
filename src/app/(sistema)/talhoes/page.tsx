@@ -1,4 +1,4 @@
-// Filtra os talhoes por fazenda
+// Filtra os talhões por fazenda
 
 "use client";
 

@@ -3,7 +3,7 @@
 import { CreatePropertyDTO, Property } from "@/modules/properties/property.entity";
 
 // TEMPORÁRIO: enquanto a API não existe, os dados ficam no navegador.
-// Quando a rota /api/properties existir, troque o conteúdo das funções por fetch(...)
+// Quando a rota /api/properties existir, lembrar de trocar o conteúdo das funções por fetch(...)
 const CHAVE = "agrogestao_propriedades";
 
 function lerTodas(): Property[] {

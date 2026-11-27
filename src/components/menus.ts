@@ -35,7 +35,7 @@ export const MENUS: Record<Perfil, ItemMenu[]> = {
     { rotulo: "Contratos/Vendas", href: "/contratos", icone: MdHandshake },
     { rotulo: "DRE Operacional", href: "/dre", icone: MdBarChart },
   ],
-  // Não definido nos documentos: confirmar com o grupo
+  
   gerente: [
     { rotulo: "Início", href: "/gerente", icone: MdHome },
     { rotulo: "Estoque", href: "/estoque", icone: MdInventory },

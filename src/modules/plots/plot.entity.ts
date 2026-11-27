@@ -1,4 +1,4 @@
-// Define o formato de um talhao (quais informacoes cada talhao precisa ter e de que tipo cada uma eh)
+// Define o formato de um talhão (quais informações cada talhão precisa ter e de que tipo cada uma é)
 
 export type Plot = {
   id: string;
